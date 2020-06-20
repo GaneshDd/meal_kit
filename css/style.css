@@ -61,10 +61,7 @@
 
 /* content */
 #content{
-  /* text-align: center; */
-  background-color: #eeeeee;
-  /* align-items: center;
-   */
+  background-color: #F7F9FB;
    padding: 7% 15%;
 }
 
@@ -73,20 +70,21 @@
   text-align: center;
   background-image: url("/images/food.jpg");
   background-size: cover;
-  /* color:green; */
-  padding-bottom: 10%;
-
+  width: 1088px;̥
+  height:980px;
+  padding-bottom: 15%;
 }
 
 .cont-fluid-inner{
   text-align: center;
-
   background-color: #fff;
   display: block;
   text-transform: capitalize;
   height: auto;
   padding: 3%;
-
+  width:80%;
+  height: 600px;
+  margin-left: 10%;
 }
 .cont-fluid-outer  h3,h1{
   color: green;
@@ -100,27 +98,64 @@
   font-size: .8rem;
 }
 
-.recipe, .beaker , .quality{
-  /* color: green; */
-
-  /* margin: 3% auto; */
-}
-
 .content-icons{
   width:96px;
   height:96px;
   margin-bottom: 2%;
 }
 
-
 .content-btn{
   float: right;
-  margin: 1.5% auto;
+  margin: 2% 5%;
 
 }
 
 
+/* Content-menu */
 
+#menu-content{
+  padding: 3% 15%;
+  text-align: center;
+}
+.card{
+  margin: 2%;
+}
+
+.menu-btn{
+  margin-top:1%;
+}
+
+h2{
+  color: green;
+}
+
+/* tweets-data */
+
+#tweets-data{
+  background-color: #F7F9FB;
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.test-img{
+  width:50%;
+  border-radius: 20% ;
+}
+
+.plain:link{
+  text-decoration: none;
+}
+.your-custom-class:active{
+  color: black;
+}
+.carousel-item{
+  padding: 1% 15%;
+}
+
+#footer{
+  background-color: #000316;
+  height: 200px;
+}
 
 /* media queries */
 
