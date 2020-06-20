@@ -16,7 +16,7 @@
   margin-right: 5%;
 }
 .title-image{
-  background-image: url("/images/food.jpg");
+  background-image: url("../images/food.jpg");
   height: 650px;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@
 
 .cont-fluid-outer{
   text-align: center;
-  background-image: url("/images/food.jpg");
+  background-image: url("../images/food.jpg");
   background-size: cover;
   width: 1088px;̥
   height:980px;
