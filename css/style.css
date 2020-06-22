@@ -82,9 +82,9 @@ p{
   text-align: center;
   background-image: url("../images/food.jpg");
   background-size: cover;
-  width: 1088px;̥
-  height:980px;
-  padding-bottom: 15%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
 }
 
 .cont-fluid-inner{
@@ -115,6 +115,10 @@ p{
   float: right;
   margin: 2% 5%;
 
+}
+
+hr{
+  border: dotted;
 }
 
 
@@ -164,12 +168,29 @@ h2{
   height: 200px;
 }
 
-/* media queries */
+@media only screen and (max-width: 600px) {
+.cont-fluid-outer{
+  padding-bottom: 20%;
+}
 
-/* @media only screen and (min-width: 450px){
-  .cont-fluid-outer{
-    padding-bottom: : 100px;
+/* tweet data */
+#tweets-data h2{
+  font-size: 1.5rem;
+}
 
-  }
+#tweets-data h3{
+  font-size: 1.2rem;
+}
 
-} */
+.carousel-item{
+  padding: 1% ;
+}
+h1, h2, h3 ,h4{
+  font-size: 1rem;
+}
+
+p{
+  font-family: 'Montserrat', serif;
+  font-size: 1rem;
+}
+}
